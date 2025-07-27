@@ -5,11 +5,13 @@
     padding: 0;
 }
 
+
 .container {
     display: flex;
     padding: 100px;
     margin: 4px;
-    background: #fff6f6;
+    background: #f2f4f7;
+    padding-bottom: 200px;
 }
 .main-text {
     display: block;
@@ -18,7 +20,7 @@
     padding: 100px;
     font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: normal;
     line-height: 36px;
     padding: 80px 70px 24px;
@@ -27,10 +29,12 @@
     
    
 }
-.main-text h1 {
-    color: blue;
-    font-size: 5rem;
-    margin-bottom: 40px;
+.main-text img {
+    width: 90vh;
+    height: 106px;
+    margin-bottom: -20px;
+    position: relative;
+    left: -153px;
 }
 
 
@@ -54,11 +58,7 @@
 
 
 
-.celebrity-pg {
-    position: absolute;
-    top: 530px;
-    left: 750px;
-}
+
 .form-page {
     display: block;
     
@@ -70,10 +70,16 @@
     border-radius: 5px;
     border: #dddfe2 solid 0.5px;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 18px
+    font-size: 18px;
 }
 .form-page input[type="text"]:focus {
     border: 1px solid #0866ff;
+    outline: none;
+    
+}
+.form-page input[type="password"]:focus {
+    border: 1px solid #0866ff;
+    outline: none;
 }
 .form-page button {
     width: 330px;
@@ -89,7 +95,17 @@
 }
 .form-page p {
     margin-bottom: 15px;
+    color:#0866ff;
    
+}
+.form-page a {
+    color: #0866ff;
+    text-decoration: none;
+
+}
+.form-page a:hover {
+    color: #0866ff;
+    text-decoration: underline;
 }
 .form-page u {
     margin-bottom: 15px;
@@ -109,5 +125,106 @@
 
 }
 
+.celebrity-pg {
+    position: absolute;
+    top: 530px;
+    left: 750px;
+    font-weight: 400;
+}
 
 
+.celebrity-pg a{
+    font-weight: 600;
+    text-decoration: none;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif
+}
+.celebrity-pg a:hover{
+    text-decoration: underline;
+}
+
+
+
+footer {
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    margin-top: 10px;
+    
+    
+}
+
+.footer-details ul{
+   
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.langu {
+    color: #333;
+    list-style: none;
+    margin-top: 20px;
+    margin: 1px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.langu li a {
+    text-decoration: none;
+    color: #1c1e21;
+    font-size: 13px;
+    padding: 1px 25px;
+    display: inline-block;
+}
+.langu li a:hover{
+    text-decoration: underline;
+}
+
+.footer-lang hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.redirect-line {
+    color: #333;
+
+    font-family: Helvetica, Arial, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 1px 25px;
+    display: flex;
+    
+    gap: 10px;
+  
+}
+
+.redirect-line li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  
+}
+
+.redirect-line li a:hover {
+  text-decoration: underline;
+}
+
+
+
+.non-user-contact  {
+    
+    margin: 10px 25px;
+    text-decoration: none;
+    
+}
+.non-user-contact a {
+    text-decoration: none;
+}
+.non-user-contact a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin: 10px 25px;
+}
