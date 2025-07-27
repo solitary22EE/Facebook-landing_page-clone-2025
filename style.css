@@ -1,0 +1,113 @@
+* {
+    
+    color: #1c1e21;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    padding: 100px;
+    margin: 4px;
+    background: #fff6f6;
+}
+.main-text {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 36px;
+    padding: 80px 70px 24px;
+    text-rendering: optimizelegibility;
+    width: 456px;
+    
+   
+}
+.main-text h1 {
+    color: blue;
+    font-size: 5rem;
+    margin-bottom: 40px;
+}
+
+
+.login-form  {
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    height: 360px;
+    padding: 50px 16px;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+
+.celebrity-pg {
+    position: absolute;
+    top: 530px;
+    left: 750px;
+}
+.form-page {
+    display: block;
+    
+}
+.form-page input {
+    padding: 14px 16px;
+    width: 330px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: #dddfe2 solid 0.5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px
+}
+.form-page input[type="text"]:focus {
+    border: 1px solid #0866ff;
+}
+.form-page button {
+    width: 330px;
+    height: 40px;
+    background: #0866ff;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.form-page p {
+    margin-bottom: 15px;
+   
+}
+.form-page u {
+    margin-bottom: 15px;
+
+}
+.new-acc button{
+    
+    width: 200px;
+    height: 40px;
+    color: white;
+    background: #36a420;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+
+
